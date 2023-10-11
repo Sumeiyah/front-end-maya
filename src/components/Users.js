@@ -13,7 +13,7 @@ const Users = () => {
 
   const handleFetchUsers = async () => {
     try {
-      const response = await axios.get('http://127.0.0.1:5000/user', {
+      const response = await axios.get('https://swiftinventory2023-f984d0fc6c43.herokuapp.com/user', {
         headers: {
           'x-access-token': token,
         },
